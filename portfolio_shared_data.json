@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Navneeta Shrivastava",
-      "titles": [ "Laravel-React Developer", "Senior Software Engineer", "Full-Stack Developer", "Application Developer" ],
+      "titles": [ "Laravel-React Developer", "Sr. Software Engineer", "Full-Stack Developer", "Application Developer" ],
       "social": [
         {
           "name": "github",
@@ -14,7 +14,7 @@
           "class": "fab fa-stack-overflow"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "myProfile1.jpg"
     },
     "skills": {
       "icons": [
@@ -64,8 +64,8 @@
           "level": "70"
         },
         {
-          "name": "Salesforce",
-          "class": "devicon-salesforce-plain",
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-plain",
           "level": "95"
         },
         {

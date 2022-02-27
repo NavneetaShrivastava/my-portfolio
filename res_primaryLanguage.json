@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Navneeta Shrivastava. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Navneeta Shrivastava. Experienced tech professional vast in Laravel 5, PHP, Java script, CSS, HTML. Looking to obtain the role of Software Developer to utilize four years of experience in handling popular web languages and Java script in developing and implementing applications based on clients need. Thank you 💜",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -81,37 +81,77 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Photobook Worldwide",
+        "title": "Senior Software Engineer",
+        "years": "02/2021 - Present",
         "mainTech": [
-          "Angular 8/9/10"
+          "React"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
+          "React",
+          "Laravel",
+          "PHP",
+          "jQuery",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "MySQL",
+          "Salesforce",
+          "GitHub",
+          "JIRA",
+          "bitbucket"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "ViewQwest",
+        "title": "Web Developer",
+        "years": "05/2019 - 12/2020",
         "mainTech": [
-          "Angular 7/8"
+          "Laravel"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
+          "Laravel",
           "PHP",
+          "HTML",
+          "CSS",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Bootstrap",
+          "MySQL",
+          "Salesforce",
+          "Zuora API",
+          "GitHub",
+          "FTP"
+        ]
+      },
+      {
+        "company": "Andres Fourdy",
+        "title": "Application Developer",
+        "years": "06/2018 - 05/2019",
+        "mainTech": [
+          "PHP Framework"
+        ],
+        "technologies": [
+          "PHP",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Bootstrap",
+          "MySQL",
+          "FTP"
+        ]
+      },
+      {
+        "company": "Tata Consultancy Services",
+        "title": "System Engineer",
+        "years": "10/2015 - 12/2017",
+        "mainTech": [
+          "HTML","CSS"
+        ],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Bootstrap",
+          "MySQL",
+          "jQuery,"
         ]
       }
     ]
