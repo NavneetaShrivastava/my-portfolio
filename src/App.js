@@ -84,7 +84,7 @@ class App extends Component {
 
   loadStackOverflowData() {
     $.ajax({
-      url: `https://api.stackexchange.com/2.3/users/11571973/answers?order=desc&sort=activity&site=stackoverflow&filter=withbody`,
+      url: `https://api.stackexchange.com/2.3/users/11571973/answers?order=desc&sort=activity&site=stackoverflow&filter=!*MZqiH2sG_JWt3xD`,
       dataType: "json",
       cache: false,
       success: function (data) {

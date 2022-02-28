@@ -10,38 +10,34 @@ class Stackoverflow extends Component {
         
         var answers = this.props.sharedStackoverflowInfo.items.map(function (answers) {
           return (
-            <div
-              className="col-sm-12 col-md-6 col-lg-4"
-              style={{ cursor: "pointer" }}
-            >
-              <span className="portfolio-item d-block">
-                <div className="foto">
-                  <div>
-                   
-                     { <div dangerouslySetInnerHTML={{ __html:(answers.body) }} /> }
-                    <br />
-                    <p className="project-title-settings mt-3">
-                      {answers.answer_id}
-                    </p>
-                  </div>
-                </div>
-              </span>
-            </div>
+            <div class="col-md-4 p-4">
+                <div class="card h-100 " >
+                    <div class="card-body">
+                        <h5 class="card-title text-black">{answers.title}</h5>
+                        { <p  class="text-black" dangerouslySetInnerHTML={{ __html:(answers.body) }} /> }
+                        <a href={answers.link} class="card-link">View</a>
+                    </div>
+                    </div>
+                    </div>
           );
 
           });
       }
 
       return (
-        <section id="portfolio">
+          
+        <section id="resume">
+          <div className="col-md-12 mx-auto ">
           <div className="col-md-12">
             <h1 className="section-title" style={{ color: "black" }}>
               <span>{sectionName}</span>
             </h1>
-            <div className="col-md-12 mx-auto">
-              <div className="row mx-auto">{answers}</div>
             </div>
-          </div>
+            <div class="card-deck" style={{display:"flex"}}>
+              {answers}
+            </div>
+         </div>
+        
         </section>
       );
   }
