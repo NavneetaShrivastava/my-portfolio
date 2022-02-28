@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Experience from "./components/Experience";
+import Stackoverflow from "./components/Stackoverflow";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
@@ -44,10 +45,12 @@ class App extends Component {
 
   componentDidMount() {
     this.loadSharedData();
+    this.loadStackOverflowData()
     this.applyPickedLanguage(
       window.$primaryLanguage,
       window.$secondaryLanguageIconId
     );
+   
   }
 
   loadResumeFromPath(path) {
@@ -72,6 +75,20 @@ class App extends Component {
       success: function (data) {
         this.setState({ sharedData: data });
         document.title = `${this.state.sharedData.basic_info.name}`;
+      }.bind(this),
+      error: function (xhr, status, err) {
+        alert(err);
+      },
+    });
+  }
+
+  loadStackOverflowData() {
+    $.ajax({
+      url: `https://api.stackexchange.com/2.3/users/11571973/answers?order=desc&sort=activity&site=stackoverflow&filter=withbody`,
+      dataType: "json",
+      cache: false,
+      success: function (data) {
+        this.setState({ stackOverflowData: data });
       }.bind(this),
       error: function (xhr, status, err) {
         alert(err);
@@ -121,8 +138,9 @@ class App extends Component {
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
         />
-        <Projects
-          resumeProjects={this.state.resumeData.projects}
+ 
+          <Stackoverflow
+          sharedStackoverflowInfo={this.state.stackOverflowData}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         
