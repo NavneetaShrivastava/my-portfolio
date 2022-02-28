@@ -5,6 +5,7 @@
       "section_name": {
         "about": "About me",
         "projects": "Projects",
+        "stackoverflow": "Stackoverflow",
         "skills": "Skills",
         "experience": "Experience"
       }
