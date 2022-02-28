@@ -103,6 +103,7 @@
       },
       {
         "company": "ViewQwest",
+        "description": "Dashboard/Website is constantly enhanced and maintained by us. The template is always optimized to load faster and deliver better user experience which helped in building profitable and scalable business. ",
         "title": "Web Developer",
         "years": "05/2019 - 12/2020",
         "mainTech": [
@@ -124,6 +125,7 @@
       },
       {
         "company": "Andres Fourdy",
+        "description": "Manage and embellished the personalized CMS features and the client’s websites.",
         "title": "Application Developer",
         "years": "06/2018 - 05/2019",
         "mainTech": [
@@ -141,6 +143,7 @@
       },
       {
         "company": "Tata Consultancy Services",
+        "description":"Design and develop websites for different clients.",
         "title": "System Engineer",
         "years": "10/2015 - 12/2017",
         "mainTech": [
