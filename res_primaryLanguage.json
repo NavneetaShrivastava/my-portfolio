@@ -83,9 +83,10 @@
       {
         "company": "Photobook Worldwide",
         "title": "Senior Software Engineer",
+        "description": "Developed and moved to cost saving platforms while maintaining and enhancing the customer experience on Photobook’s Ecommerce website.",
         "years": "02/2021 - Present",
         "mainTech": [
-          "React"
+          "Laravel","React"
         ],
         "technologies": [
           "React",
