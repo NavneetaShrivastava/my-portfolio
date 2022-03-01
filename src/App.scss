@@ -429,3 +429,32 @@ footer a:focus {
 	margin-top: 50px;
 	font-size: 22px;
 }
+
+.stackoverflow-answer p {
+    margin-bottom: 1em;
+}
+
+.stackoverflow-answer pre {
+    word-wrap: break-word;
+    background: hsla(0,0%,59%,.1);
+    border: 1px solid hsla(0,0%,39%,.2);
+    border-radius: 3px;
+    padding: 0.4em 0.6em;
+    white-space: pre-wrap;
+}
+
+.stackoverflow-answer pre code {
+    background: transparent;
+    border: 0;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.stackoverflow-item{
+	font-size: 1.5rem;
+	opacity: 1;
+	max-width: 100%;
+	margin-bottom: 15px;
+	text-align: center;
+}
