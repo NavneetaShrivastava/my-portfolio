@@ -82,10 +82,30 @@
   ],
   "experience": [
     {
+      "company": "Asian Foorball Confederation",
+      "title": "Senior Software Engineer",
+      "description": "Implemented modern solutions and optimized the software development process to enhance efficiency and scalability. Mentored juniors, guiding them to achieve desired solutions while improving overall code quality. Led API enhancements, ensuring better performance and reliability. Contributed to architectural improvements, making the system more robust and maintainable.",
+      "years": "09/2022 - Present",
+      "mainTech": ["Laravel", "Nest.Js", "Angular"],
+      "technologies": [
+        "Angular",
+        "Kafka",
+        "Postgres",
+        "Docker",
+        "AWS",
+        "Nest.Js",
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "ClickUp",
+        "bitbucket"
+      ]
+    },
+    {
       "company": "Photobook Worldwide",
       "title": "Senior Software Engineer",
       "description": "Developed and moved to cost saving platforms while maintaining and enhancing the customer experience on Photobook’s Ecommerce website.",
-      "years": "02/2021 - Present",
+      "years": "02/2021 - 07/2022",
       "mainTech": ["Laravel", "React"],
       "technologies": [
         "React",
