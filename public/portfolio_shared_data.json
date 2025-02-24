@@ -1,83 +1,92 @@
 {
-    "basic_info": {
-      "name": "Navneeta Shrivastava",
-      "titles": [ "Laravel Developer", "React Developer", "Full-Stack Developer", "Application Developer" ],
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com/NavneetaShrivastava",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "stackoverflow",
-          "url": "https://stackoverflow.com/users/11571973/navneeta",
-          "class": "fab fa-stack-overflow"
-        }
-      ],
-      "image": "myProfile1.jpg"
-    },
-    "skills": {
-      "icons": [
-        {
-          "name": "PHP",
-          "class": "devicon-php-plain",
-          "level": "95"
-        },
-        {
-          "name": "Laravel",
-          "class": "devicon-laravel-plain",
-          "level": "95"
-        },
-        {
-          "name": "React",
-          "class": "devicon-react-plain",
-          "level": "80"
-        },
-        {
-          "name": "NodeJS",
-          "class": "devicon-nodejs-plain",
-          "level": "80"
-        },
-        {
-          "name": "MySQL",
-          "class": "devicon-mysql-plain",
-          "level": "95"
-        },
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Jquery",
-          "class": "devicon-jquery-plain",
-          "level": "60"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "AWS",
-          "class": "devicon-amazonwebservices-plain",
-          "level": "95"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        }
-      ]
-    }
+  "basic_info": {
+    "name": "Navneeta Shrivastava",
+    "titles": [
+      "Laravel Developer",
+      "Full-Stack Developer",
+      "Senior Software Engineer"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/NavneetaShrivastava",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "stackoverflow",
+        "url": "https://stackoverflow.com/users/11571973/navneeta",
+        "class": "fab fa-stack-overflow"
+      }
+    ],
+    "image": "myProfile1.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "PHP",
+        "class": "devicon-php-plain",
+        "level": "95"
+      },
+      {
+        "name": "Laravel",
+        "class": "devicon-laravel-plain",
+        "level": "95"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-plain",
+        "level": "80"
+      },
+      {
+        "name": "NodeJS",
+        "class": "devicon-nodejs-plain",
+        "level": "80"
+      },
+      {
+        "name": "MySQL",
+        "class": "devicon-mysql-plain",
+        "level": "95"
+      },
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "Jquery",
+        "class": "devicon-jquery-plain",
+        "level": "60"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "AWS",
+        "class": "devicon-amazonwebservices-plain",
+        "level": "95"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      },
+      {
+        "name": "Angular",
+        "class": "devicon-angular-plain",
+        "level": "65"
+      },
+      {
+        "name": "Next.Js",
+        "class": "devicon-nestjs-original",
+        "level": "65"
+      }
+    ]
   }
+}
