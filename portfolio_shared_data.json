@@ -2,9 +2,9 @@
   "basic_info": {
     "name": "Navneeta Shrivastava",
     "titles": [
+      "Senior Software Engineer",
       "Laravel Developer",
-      "Full-Stack Developer",
-      "Senior Software Engineer"
+      "Full-Stack Developer"
     ],
     "social": [
       {
@@ -79,7 +79,7 @@
       },
       {
         "name": "Angular",
-        "class": "devicon-angular-plain",
+        "class": "devicon-angularjs-plain",
         "level": "65"
       },
       {
